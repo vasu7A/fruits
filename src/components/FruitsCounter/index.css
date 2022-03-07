@@ -1,0 +1,47 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.main-bg {
+  background-color: #ffd569;
+  height: 100vh;
+  padding: 100px;
+  text-align: center;
+}
+.card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.heading {
+  font-size: 50px;
+}
+
+.img-size {
+  height: 250px;
+  width: 250px;
+}
+
+.arrange {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.arrange-inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-style {
+  height: 30px;
+  width: 80px;
+  background-color: #007bff;
+  border: 0px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
